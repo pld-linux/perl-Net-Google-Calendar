@@ -6,7 +6,7 @@
 %define		pdir	Net
 %define		pnam	Google-Calendar
 Summary:	Net::Google::Calendar - programmatic access to Google's Calendar API
-Summary(pl):	Net::Google::Calendar - dostêp do API Google Calendar
+Summary(pl.UTF-8):   Net::Google::Calendar - dostÄ™p do API Google Calendar
 Name:		perl-Net-Google-Calendar
 Version:	0.2_devel
 Release:	1
@@ -23,8 +23,8 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 Interact with Google's new calendar.
 
-%description -l pl
-Modu³ do wspó³pracy z nowym kalendarzem Google.
+%description -l pl.UTF-8
+ModuÅ‚ do wspÃ³Å‚pracy z nowym kalendarzem Google.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
