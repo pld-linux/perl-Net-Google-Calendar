@@ -8,7 +8,7 @@
 Summary:	Net::Google::Calendar - programmatic access to Google's Calendar API
 Summary(pl.UTF-8):	Net::Google::Calendar - dostęp do API Google Calendar
 Name:		perl-Net-Google-Calendar
-Version:	0.2_devel
+Version:	0.97
 Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
@@ -17,6 +17,8 @@ Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version
 URL:		http://search.cpan.org/dist/Net-Google-Calendar/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
+BuildRequires:	perl(XML::Atom) >= 0.23
+BuildRequires:	perl(Net::Google::AuthSub)
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
